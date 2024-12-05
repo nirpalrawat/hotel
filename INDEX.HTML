@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOTEL& Restaurants</title>
+    <!-- favicon -->
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROJLG6kh3CV3xXuPylgskvcjtsbKPeVLF96Q&s"
+    />
+    <!-- bootstrap 5 cdn link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- animation link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- icon link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- java script link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- link swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/INDEX.CSS" />
+    <!-- custom file link -->
+    <link rel="stylesheet" href="main.js" />
+  </head>
+
+  <body>
+    <!-- navbar section -->
+    <header class="header_wrapper">
+      <nav
+        class="navbar navbar-expand-lg fixed-top"
+        style="background: slategrey"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://seeklogo.com/images/R/royal-chef-english-logo-6FEEA1200A-seeklogo.com.png"
+              class="img-fluid"
+              alt="logo"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fas fa-stream navbar"></i>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav menu-navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="INDEX.HTML"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="HOTAL ABOUT.HTML">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="HOTEL ROOMS.HTML">Rooms</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="HOTELSERVICE.HTML">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="HOTEL TEAM.HTML">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="HOTEL GALLERY.HTML">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="HOTEL PRICE.HTML">Price </a>
+              </li>
+
+              <li class="nav-item">
+                <button
+                  class="main-btn"
+                  data-bs-target="#aa"
+                  data-bs-toggle="modal"
+                >
+                  Login
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- navbar section  end-->
+
+
+    <body onload="myfunction()">
+      <div id="loading"></div>
+
+
+    <!-- banner section -->
+
+    <!-- carousel slid start -->
+    <div class="carousel slide" data-bs-ride="carousel" id="ab">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#ab"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#ab"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#ab"
+          data-bs-slide-to="2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#ab"
+          data-bs-slide-to="3"
+        ></button>
+        <!-- <button type="button" data-bs-target="#a" data-bs-slide-to="3"></button> -->
+      </div>
+
+      <div class="carousel-inner">
+        <!-- carousel inner start -->
+
+        <div class="carousel-item active" bata-bs-interval="1000">
+          <img
+            src="https://www.theplazany.com/wp-content/uploads/2024/04/The-Plaza-Hotel-Hero-Header.jpg"
+            alt=""
+            class="w-100"
+            height="700px"
+          />
+
+          <div class="carousel-caption"></div>
+        </div>
+
+        <div class="carousel-item" bata-bs-interval="1000">
+          <!-- <img
+            src="https://media.cnn.com/api/v1/images/stellar/prod/231103153225-01-dollywood-heartsong-resort-hotel.jpg?c=original"
+            alt=""
+            class="w-100"
+            height="700px"
+          /> -->
+
+          <img
+            src="https://www.americanexpress.com/en-us/travel/discover/photos/20359/700997/1600/epic.jpg?ch=560"
+            alt=""
+            class="w-100"
+            height="700px"
+          />
+
+          <div class="carousel-caption"><h1></h1></div>
+        </div>
+
+        <div class="carousel-item" bata-bs-interval="1000">
+          <!-- <img
+            src="https://www.theroyalhotel.co.nz/assets/Uploads/a83a86ddb5/The-Royal-Twilight-01.jpg"
+            alt=""
+            class="w-100"
+            height="700px"
+          /> -->
+
+          <img
+            src="https://d1wvu3uz6z0ab3.cloudfront.net/www.jbdukehotel.com-1482336606/cms/cache/v2/652560daf1086.jpg/1920x1080/fit;c:0,572,5502,3666/80/9ee48aaae07300aaeeb1ac9350890633.jpg"
+            class="w-100"
+            height="700px"
+          />
+
+          <div class="carousel-caption"><h1></h1></div>
+        </div>
+
+        <div class="carousel-item" bata-bs-interval="1000">
+          <!-- <img
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/64/c1/ee/20181109-144606-largejpg.jpg?w=1200&h=-1&s=1"
+            alt=""
+            class="w-100" height="700px"
+          /> -->
+          <!-- <img
+            src="https://grandpalaceriga.com/wp-content/uploads/2014/04/Weddings_in_Riga_Grand_Palace_Hotel_1.jpg"
+            alt=""
+            class="w-100"
+            height="700px"
+          /> -->
+
+          <img
+            src="https://media.cnn.com/api/v1/images/stellar/prod/231103153225-01-dollywood-heartsong-resort-hotel.jpg?c=original"
+            alt=""
+            class="w-100"
+            height="700px"
+          />
+
+          <div class="carousel-caption"><h1></h1></div>
+
+          <!-- carousel caption  div end -->
+        </div>
+        <!-- carousel inner  div end - -->
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#ab"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#ab"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
+      <!-- carousel inner end  -->
+    </div>
+    <!-- carousel slid end -->
+
+    <!-- marquee start -->
+
+    <marquee
+      behavior=""
+      direction=""
+      bgcolor="orangered"
+      scrollamount="15"
+      onmouseover="stop();"
+      onmouseout="start();"
+    >
+      <p style="font-size: 23px; color: white">
+        <img
+          src="https://seeklogo.com/images/R/royal-chef-english-logo-6FEEA1200A-seeklogo.com.png"
+          alt=""
+          height="30px"
+          width="50px"
+        />
+
+        Well Come to Royal Hotel in Mumbai India .The Grand Hotel Royal opened
+        in 1896 as the largest hotel on the continent: 350 rooms, numerous
+        restaurants, a palatial Royal ballroom, telephones in every room,
+        electricity supplying the entire building, 'rising rooms', powered by
+        steam engines and reaching all floors.
+      </p>
+    </marquee>
+
+    <!-- marquee end -->
+    <div class="container booking-area">
+      <form class="row">
+        <div class="col-lg mb-3 mb-lg-0">
+          <input type="date" class="form-control" placeholder="Date" />
+        </div>
+
+        <div class="col-lg mb-3 mb-lg-0">
+          <input type="date" class="form-control" placeholder="Date" />
+        </div>
+        <div class="col-lg mb-3 mb-lg-0">
+          <select class="form-select" id="">
+            <option selected>Rooms</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </div>
+        <div class="col-lg mb-3 mb-lg-0">
+          <select class="form-select" id="">
+            <option selected>Adults</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </div>
+
+        <div class="col-lg mb-3 mb-lg-0">
+          <select class="form-select" id="">
+            <option selected>Children</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </div>
+
+        <div class="col-lg mb-3 mb-lg-0">
+          <button type="submit" class="main-btn rounded-2 px-lg-3">
+            Check Avaliable
+          </button>
+        </div>
+        <!-- button end -->
+      </form>
+    </div>
+    <!-- container end -->
+
+    <br /><br />
+    <br />
+    <!-- container start -->
+    <div class="container">
+      <h2 class="text-center a">
+        Well Come To <b style="color: orange"> Royal Hotel</b>
+      </h2>
+      <div class="row">
+        <div class="col-md-6">
+          <br />
+          <br />
+          <h3
+            class="a animate__animated animate__rollIn"
+            style="color: teal; animate__rollIn"
+          >
+            state ment of <br />Royal hotal
+          </h3>
+
+          <p class="b">
+            The Grand Hotel Royal opened in 1896 as the largest hotel on the
+            continent: 350 rooms, numerous restaurants, a palatial Royal
+            ballroom, telephones in every room, electricity supplying the entire
+            building, 'rising rooms', powered by steam engines and reaching all
+            floors. Next door laid a superb spa. In the days of the
+            Austro-Hungarian empire, the ‘Royal’ became the melting pot of the
+            world of yesterday. Here Hungarians saw the first moving Lumire
+            pictures, sipped their first five o'clock high tea; and rubbed
+            shoulders with the international visitors of the great jubilee
+            exhibition of 1896. It was the home to all leading Hungarian
+            artists.
+          </p>
+          <hr />
+          <p class="b">
+            The story of the hotel from its very first day at the height of the
+            glittering Fin-de-siècle over one hundred years into the third
+            millennium. Coriinthiafounder Alfred Pisani (left) explains how he
+            renovated the hotel.
+          </p>
+
+          <center>
+            <button
+              class="btn btn-primary mt-3"
+              style="
+                font-size: 25px;
+                color: white;
+                background: linear-gradient(to left, #53a8ee, #f31d1d);
+              "
+            >
+              ReadMore....
+            </button>
+          </center>
+        </div>
+
+        <div class="col-md-6 text-center mt-5 imgroyal">
+          <br />
+
+          <img
+            src="https://i0.wp.com/www.happyhighlife.com/wp-content/uploads/2023/08/20221023-20221023_191720.jpg?resize=1024%2C675&ssl=1"
+            alt=""
+            class="w-100"
+            height="350px"
+          />
+
+          <img
+            src="https://www.lemontreehotels.com/assets/front/images/AHR.jpg"
+            alt=""
+            class="w-100"
+            height="350px"
+          />
+        </div>
+      </div>
+      <!-- row end -->
+    </div>
+    <!-- container end -->
+
+    <!-- container fluid start  -->
+    <div class="container-fluid mt-4" style="background: rgb(250, 244, 242)">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-4 aline-self-center">
+          <br /><br /><br />
+          <h2 class="heading mb-4 text-center">
+            One platform. One log-in. One place to manage your business…Your way
+          </h2>
+          <p class="b">
+            When you partner with Little Hotelier you get a leading all-in-one
+            platform designed to grow your small accomodation business, increase
+            your revenue, simplify your admin and help you control every aspect
+            of your business.
+          </p>
+          <p class="b">
+            We’ve been around for more than a decade, guided by the idea that
+            small accommodation providers deserve systems designed for them. Our
+            platform gives you back time to spend on your guests and things that
+            matter to you in your business. Today, we’re the world’s most
+            trusted hotel software platform because we take the hassle out of
+            running a small property.
+          </p>
+
+          <p class="b text-dark">
+            Our full featured platform gives you access to the industry’s most
+            powerful distribution network with the most connections available to
+            you and 100% connection quality with leading OTAs. Not many can say
+            that!
+
+            <center>
+              <button
+                class="btn btn-info mb-4"
+                style="background: rgb(2, 2, 81); color: white; font-size: 20px"
+              >
+                Search More..
+              </button>
+            </center>
+          </p>
+        </div>
+
+        <div class="col-md-6 mt-5 text-center">
+          <img
+            src="https://www.littlehotelier.com/app/uploads/2022/01/All-in-one_1250x1250-1.png "
+            alt=""
+            class="w-100"
+            style="height: 700px"
+          />
+        </div>
+      </div>
+      <!-- row end -->
+    </div>
+    <!--container-fluid  end-->
+
+    <!-- container-fluid  start-->
+    <div class="container-fluid mt-5" style="background: bisque">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+          <h1 class="a">Support</h1>
+          <p class="b">
+            We provide you with award-winning 24/7 support across phone, web and
+            chat when you need it. Our support and customer success teams are
+            available to you in 10 languages, and with more than 90% customer
+            satisfaction for chat support and over 4* on Capterra, you can rest
+            assured that we will be there to help you succeed when you need us.
+          </p>
+
+          <center>
+            <button
+              class="btn btn-info mb-4"
+              style="background: rgb(2, 2, 81); color: white; font-size: 20px"
+            >
+              Know More..
+            </button>
+          </center>
+        </div>
+
+        <div class="col-md-1"></div>
+
+        <div class="col-md-4 mt-4">
+          <img
+            src="https://st5.depositphotos.com/1010613/67490/i/450/depositphotos_674909302-stock-photo-positive-female-customer-services-agent.jpg"
+            alt=""
+            class="w-100"
+          />
+        </div>
+      </div>
+      <!-- row end -->
+    </div>
+    <!-- container-fluid  end-->
+
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-6 text-center mt-2">
+          <img
+            src="https://www.littlehotelier.com/app/uploads/2022/01/GettyImages-517970836.jpg"
+            alt=""
+            class="w-100"
+          />
+        </div>
+
+        <div class="col-md-6 mt-2">
+          <h4 class="a" style="font-size: 34px; font-weight: 700">
+            Impleme ntation with no downtime
+          </h4>
+          <br />
+          <p class="b">
+            We’ve onboarded thousands of customers over the past 10 years, so
+            it’s fair to say we know a thing or two about how to make it easy
+            for you. Little Hotelier’s intuitive user interface makes it
+            incredibly fast to learn. Our onboarding process will have your
+            property set up and taking bookings with no downtime. As the most
+            trusted hotel management system on the market, you can count on us
+            to provide you with the tools and resources to succeed.
+          </p>
+          <center>
+            <button
+              class="btn btn-info mb-4"
+              style="background: rgb(2, 2, 81); color: white; font-size: 22px"
+            >
+              AboutMore..
+            </button>
+          </center>
+        </div>
+      </div>
+    </div>
+    <!-- container end  -->
+
+    <!-- container start  youtube -->
+    <div class="container mt-5" style="display: flexbox">
+      <h3 style="color: #f79205; text-align: center">Well Come To Our Hotel</h3>
+
+      <center>
+        <iframe
+          class="embed-responsive-item"
+          src="https://www.youtube.com/embed/4RSdLKURLf0?si=9GnaDei0TD-tmB2P"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </center>
+    </div>
+    <!-- container end  -->
+
+    <!-- container start  -->
+
+    <br /><br />
+    <div class="container mt-5">
+      <h3 class="text-center">Top Amenities</h3>
+      <br />
+      <div class="row">
+        <div class="col-md-3">
+          <ul>
+            <li>
+              <a href=""><i class="bx bx-wifi i"> Wifi lobby</i> </a>
+            </li>
+            <li><a href="">Cafe-center </a></li>
+            <li><a href="">Conference rooms</a></li>
+            <li><a href="">Business center</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <ul>
+            <li>
+              <a href=""><i class="bx bx-swim i"> Swimming Pool</i></a>
+            </li>
+            <li><a href="">No-smoking Rooms</a></li>
+            <li><a href="">TV</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <ul>
+            <li>
+              <a href=""><i class="bx bx-restaurant i"> Restaurants</i></a>
+            </li>
+            <li><a href="">Express Check-in</a></li>
+            <li><a href="">Hotel bar</a></li>
+            <li><a href="">Restaurant</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <ul>
+            <li>
+              <a href=""><i class="bx bx-dumbbell i"> GYM </i></a>
+            </li>
+            <li><a href="">Express Check-in</a></li>
+            <li><a href="">Hotel bar</a></li>
+            <li><a href="">Restaurant</a></li>
+          </ul>
+        </div>
+      </div>
+      <br /><br />
+      <h3 class="text-center">Room amenities</h3>
+      <div class="row">
+        <div class="col-md-3">
+          <ul>
+            <li><a href="">Shower</a></li>
+            <li><a href="">Minibar</a></li>
+            <li><a href="">Cable TV</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <ul>
+            <li><a href="">Shower</a></li>
+            <li><a href="">Minibar</a></li>
+            <li><a href="">Cable TV</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <ul>
+            <li><a href="">Shower</a></li>
+            <li><a href="">Minibar</a></li>
+            <li><a href="">Cable TV</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <ul>
+            <li><a href="">Shower</a></li>
+            <li><a href="">Minibar</a></li>
+            <li><a href="">Cable TV</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- container end -->
+
+    <!-- container start -->
+    <div class="container mt-5">
+      <h3>Location</h3>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d56939.38224105767!2d72.8145975882142!3d19.093452814941255!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1718904556717!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+    <!-- container end -->
+
+    <!-- container start -->
+    <div class="container-fluid mt-5" style="background: rgb(248, 240, 225)">
+      <h2
+        style="
+          text-align: center;
+          font-size: 40px;
+          color: orange;
+          /* background: orange; */
+
+          padding-top: 20px;
+          text-transform: uppercase;
+          font-family: 'prague';
+          letter-spacing: 3px;
+        "
+      >
+        Fairmont Royal York
+      </h2>
+      <div class="row">
+        <div class="col-md-1"></div>
+
+        <div class="col-md-5">
+          <br /><br />
+          <img
+            src="https://pbs.twimg.com/media/GQHpTMVXoAAQxvu?format=jpg&name=large"
+            alt=""
+            class="w-100"
+          />
+        </div>
+
+        <div class="col-md-6 text-center">
+          <p
+            style="
+              line-height: 30px;
+              word-spacing: 2px;
+              font-size: 16px;
+              color: black;
+            "
+          >
+            <br />
+
+            The Fairmont Royal York, formerly and still commonly known as the
+            Royal York, is a large historic luxury hotel in Toronto, Ontario,
+            Canada. Located along Front Street West, the hotel is situated at
+            the southern end of the Financial District, in Downtown Toronto. The
+            Royal York was designed by Ross and Macdonald, in association with
+            Sproatt and Rolph, and built by the Canadian Pacific Railway
+            company. The hotel is currently managed by Fairmont Hotels and
+            Resorts. Opened on 11 June 1929, the Châteauesque-styled building is
+            124 metres (407 ft) tall, and contains 28 floors. It is considered
+            one of Canada's grand railway hotels. After its completion, the
+            building was briefly the tallest building in Toronto, as well as the
+            tallest building in the country, and the British Empire, until the
+            nearby Canadian Bank of Commerce Tower was built the following year.
+            The building has undergone several extensive renovations since it
+            first opened, with its first major renovation in 1972. An
+            underground walkway linking the hotel with the Royal Bank Plaza and
+            Union Station form part of Toronto's PATH underground city system.
+          </p>
+          <center>
+            <button
+              class="btn btn-info mb-4"
+              style="background: rgb(2, 2, 81); color: white; font-size: 20px"
+            >
+              ABOUT MORE
+            </button>
+          </center>
+        </div>
+      </div>
+    </div>
+
+    <!-- container end -->
+
+    <!-- footer onn -->
+    <br />
+    <div
+      class="container-fluid mb-4 animate__animated animate__heartBeat"
+      style="
+        background: #175555;
+        border-top-left-radius: 500px;
+        border-bottom-right-radius: 500px;
+        box-shadow: 1px 1px 7px 10px orangered;
+      "
+    >
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 mt-5">
+          <a
+            href="https://www.google.com/travel/search?q=royal%20hotel%20in%20mumbai&g2lb=4814050%2C4874190%2C4893075%2C4965990%2C10210222%2C72277293%2C72302247%2C72317059%2C72406588%2C72414906%2C72421566%2C72462234%2C72470899%2C72471280%2C72472051%2C72473841%2C72481458%2C72485658%2C72486593%2C72494250%2C72513513%2C72536387%2C72538597%2C72549171%2C72570850%2C72580006%2C72582855%2C72586336%2C72597757%2C72597926%2C72602734%2C72605013%2C72606236%2C72616110%2C72618893%2C72619172%2C72619383%2C72619935%2C72620306%2C72626058%2C72629584&hl=en-IN&gl=in&ssta=1&ts=CAESCAoCCAMKAggDGhwSGhIUCgcI6A8QCRgNEgcI6A8QCRgOGAEyAggCKgcKBToDSU5S&qs=CAEyFENnc0l0NHoyMXNHU29fYjJBUkFCOAhCCQlUySt6W4uqcUIJCcTMEPbBCFBtQgkJN4bdGpSM7PZaVQgBMlGqAU4QASoPIgtyb3lhbCBob3RlbCgAMh4QASIa100PHZ4cnVET65_02H7orsMz0XIqFg5VukoyGRACIhVyb3lhbCBob3RlbCBpbiBtdW1iYWk&ap=aAG6AQhvdmVydmlldw&ictx=111&ved=0CAAQ5JsGahcKEwiQvpr6odSGAxUAAAAAHQAAAAAQDA"
+            ><img
+              src="https://seeklogo.com/images/R/royal-chef-english-logo-6FEEA1200A-seeklogo.com.png"
+              alt=""
+              class="img animate__animated animate__rollIn"
+              style="width: 80%; margin-top: 2cm"
+            />
+          </a>
+        </div>
+
+        <div class="col-md-1"></div>
+        <div class="col-md-6">
+          <h1
+            class="aaa text-light mt-4 animate__animated animate__zoomInRight"
+          >
+            <span
+              style="
+                color: orange;
+                padding-top: 20px;
+                text-transform: uppercase;
+                font-family: 'prague';
+                letter-spacing: 3px;
+              "
+              >HOTEL</span
+            >
+            <span>ROYAL</span>
+          </h1>
+          <p
+            style="
+              line-height: 30px;
+              word-spacing: 1px;
+              font-size: 18px;
+              color: wheat;
+            "
+          >
+            Dear guest, thank you for choosing our hotel, and for taking the
+            time to write a review! we are so glad to hear that you enjoyed your
+            stay. Our hotel aims to provide a truly unique experience, and we
+            are thrilled that we were able to exceed your expectations. We look
+            forward to Read More...
+          </p>
+          <div class="row">
+            <div class="col-md-6">
+              <h6
+                style="
+                  color: orange;
+                  padding-top: 20px;
+                  text-transform: uppercase;
+                  font-family: 'prague';
+                  letter-spacing: 3px;
+                  font-size: 25px;
+                "
+              >
+                ADDRESS
+              </h6>
+              <p class="text-light">
+                Khar West, Mumbai | 2.9 km drive to
+                <br />Lilavati Hospital And Research Centre
+              </p>
+            </div>
+            <div class="col-md-6">
+              <h6
+                style="
+                  color: orange;
+                  padding-top: 20px;
+                  text-transform: uppercase;
+                  font-family: 'prague';
+                  letter-spacing: 3px;
+                  font-size: 25px;
+                "
+              >
+                ENQUIRY
+              </h6>
+              <p class="text-light">
+                Email:
+                <span style="color: #f79205; font-weight: 400"
+                  >customercare@firstfiddle.in</span
+                >
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-5">
+                <br />
+                <br />
+                <a href="https://www.facebook.com/"
+                  ><i
+                    class="bx bxl-facebook-circle"
+                    style="
+                      color: orange;
+                      font-weight: 400;
+                      margin-left: 3px;
+                      font-size: 45px;
+                    "
+                  >
+                  </i
+                ></a>
+                <a href="https://www.instagram.com/accounts/login/?hl=en"
+                  ><i
+                    class="bx bxl-instagram"
+                    style="
+                      color: orange;
+                      font-weight: 400;
+                      margin-left: 3px;
+                      font-size: 45px;
+                    "
+                  ></i
+                ></a>
+                <a href="https://web.whatsapp.com/"
+                  ><i
+                    class="bx bxl-whatsapp"
+                    style="
+                      color: orange;
+                      font-weight: 400;
+                      margin-left: 3px;
+                      font-size: 45px;
+                    "
+                  ></i
+                ></a>
+                <a href="https://www.linkedin.com/feed/"
+                  ><i
+                    class="bx bxl-linkedin-square"
+                    style="
+                      color: orange;
+                      font-weight: 400;
+                      margin-left: 3px;
+                      font-size: 45px;
+                    "
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row end -->
+    </div>
+    <!-- container fluid end -->
+
+    <div class="container-fluid" style="background-color: rgb(244, 172, 117)">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-9 text-white">
+          <p class="mt-3" style="font-weight: 500; color: ">
+            "EMPLOYEE POLICIES |PRIVACY POLICY |TERMS AND CONDITIONS | BLOG |
+            APP "
+            <b style="font-weight: 250; margin-left: 2.5cm" class="foot"
+              >COPYRIGHT © 2024 Royal hotel in mumbai.com</b
+            >
+          </p>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+    <!-- container fluid end -->
+
+    <!-- button trigger model -->
+    <div class="modal fade" id="aa">
+      <div class="modal-dialog modal-md">
+        <!-- model-xl ,md,sm,lg -->
+        <div class="modal-content">
+          <div class="modal-header" style="background: rgb(237, 70, 70)">
+            <h3 class="modal-title" style="color: white; text-align: center">
+              book now
+            </h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <!-- model header end -->
+          <div class="modal-body" style="background: bisque">
+            <form action="">
+              <div class="mb-3">
+                <label for="">Name:</label>
+                <input type="text" class="form-control" required />
+              </div>
+
+              <div class="mb-3">
+                <label for="">E-mail:</label>
+                <input type="email" class="form-control" required />
+              </div>
+
+              <div class="mb-3" style="display: flexbox">
+                <label for="">Room Type:</label>
+
+                <select
+                  class="form-control"
+                  placeholder="please select"
+                  required
+                >
+                  <option value="">Please select</option>
+                  <option value="">Standered Room(1 to 2 people)</option>
+                  <option value="">Family Room (1 to 4 people)</option>
+                  <option value="">Private Room(1 to 3 people)</option>
+                  <option value="">Female Dorm Room(6 people)</option>
+                  <option value="">Male Dorm Room(6 people)</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label for="">No.of guests:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="e.g.,23"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="">Arrival Date & Time *:</label>
+                <input type="date" class="form-control" required />
+              </div>
+              <br />
+              <center>
+                <button
+                  class="btn btn-warning"
+                  style="
+                    font-size: larger;
+                    color: white;
+                    background: rgb(6, 6, 84);
+                  "
+                >
+                  submit
+                </button>
+              </center>
+            </form>
+          </div>
+          <!-- model body -->
+        </div>
+        <!-- model-content -->
+      </div>
+      <!-- model dialog end -->
+    </div>
+    <!-- model end -->
+
+    <!-- ////////////////////////////////////////////// -->
+
+    <div style="display: flexbox">
+      <marquee
+        behavior=""
+        direction="left"
+        scrollamount="15"
+        width="100%"
+        height="40pxpx"
+        bgcolor="orange"
+      >
+        <h5 style="display: inline-flex; text-align: center; color: black">
+          Welcome to Hotel Royal , We are pleased to offer you a unique
+          experience at our design hotel, where style and comfort come together
+          to create an elegant and welcoming environment. Located within walking
+          distance of the metro and with easy access to the city’s main sights,
+          our hotel is the perfect choice for business travellers and
+          holidaymakers looking for high-quality accommodation. Hotel Royal
+          Prague offers 196 comfortable furnished rooms to meet the needs of all
+          our guests. The elegant and luxurious interiors guarantee maximum
+          well-being during your stay.
+        </h5>
+      </marquee>
+    </div>
+
+
+    <script>
+      let preloader= document.getElementById('loading');
+      function myfunction(){
+        preloader.style.display ='none';
+      }
+    </script>
+
+
+  </body>
+</html>
